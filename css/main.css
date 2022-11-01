@@ -15,7 +15,7 @@ html {
 
 ::selection {
     color: rgb(0, 0, 0); 
-    background: #ff0;
+    background: rgb(233, 195, 114);
 }
 
 h1 {
@@ -35,6 +35,10 @@ h1.page-header {
     -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+h2.subheader{
+    font-family:'Playfair Display', serif;
 }
 
 main.wrapper {
