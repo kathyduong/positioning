@@ -1,7 +1,6 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand');
 
 html {
     background-color: rgb(177, 147, 109);
@@ -12,6 +11,10 @@ html {
     background-repeat: repeat;
     background-size: 1500px 800px;
 }
+
+body{
+    margin:0; /* removes space above body, top of page */
+ } 
 
 ::selection {
     color: rgb(0, 0, 0); 
